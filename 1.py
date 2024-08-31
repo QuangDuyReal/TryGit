@@ -1,0 +1,5 @@
+Price = int(input("Nhap don gia:"))
+Amount = int(input("Nhap soLuong:"))
+print("Tong tien truoc thue:",Price,"*",Amount, "=", Price*Amount)
+print("Tien thue",(Price*Amount)*0.1)
+print("Tong tien sau thue:", (Price*Amount) + (Price*Amount)*0.1)
